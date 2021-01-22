@@ -1,5 +1,8 @@
 parser grammar JsonParser;
 
 options { 
-    tokenVocab = JsonLexer; 
+    tokenVocab = JsonLexer;
 }
+
+json:
+    NULL;
